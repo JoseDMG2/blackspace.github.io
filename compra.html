@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Insertar Tarjeta de Crédito</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <header class="header">
+        <!--Encabezado #1 para el menu-->
+        <div class="container">
+            <div class="menu">
+            
+            <!--enlace vinculado al logo-->
+            <a href="black-space.html" class="logo">BLACK SPACE</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/logo/menu.png">
+            </label>
+            <!--lista menu-->
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="black-space.html"> Inicio </a> </li>
+                    <li> <a href="black-space.html#servicios"> Servicios </a> </li>
+                    <li> <a href="black-space.html#productos"> Productos </a> </li>
+                    <li> <a href="black-space.html#contacto"> Contacto </a> </li>
+                    <li> <a href="logeo.html"> Iniciar Sesión </a> </li>
+                </ul>
+            </nav>
+            <div class="carrito_nav">
+                    <a  href="carrito.html"><img src="images/carrito.png"></a>
+                </div>
+        </div>
+    </header>
+    <h1 class="form-title" style="margin: 60px 60px; text-align: center; font-size: 40px">Formulario de Compra</h1>
+    <form action="#" method="post" style="margin-bottom: 60px">
+        <div>
+            <label for="nombre">Propietario de la Tarjeta:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre en la Tarjeta" required>
+        </div>
+        <div>
+            <label for="numero">Número de Tarjeta:</label>
+            <input type="text" id="numero" name="numero" placeholder="Número de Tarjeta" required>
+        </div>
+        <div>
+            <label for="fecha">Fecha de Expiración:</label>
+            <input type="text" id="fecha" name="fecha" placeholder="MM/AA" required>
+        </div>
+        <div>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+        </div>
+        <label>
+        <input type="checkbox">
+        Recordarme
+        </label>
+        <div style="margin-top: 10px">
+            <input type="submit" value="Realizar Compra">
+        </div>
+    </form>
+    <!--pie de pagina-->
+    <footer class="footer" style="background-color: #D9F7FF;">
+        <div class="footer-content">
+            <div class="columna">
+                <h4>Contacto</h4>
+                <p>Llamando al (01) 457-9821<br>
+                Whatsapp: 9519949756<br>
+                De lunes a domingo de 8am a 10pm</p>
+            </div>
+            <div class="columna">
+                <h4>Correo</h4>
+                <p>Coméntanos:<br>
+                <u>BlackSpace@outlook.com</u></p>
+            </div>
+            <div class="columna">
+                <h4>Términos y condiciones</h4>
+                <p><a href="terminosycondiciones.html"><img src="images/terminos-y-condiciones.png"></a></p>
+            </div>
+            <div class="columna">
+                <h4>Sobre nosotros</h4>
+                <p><a href="nosotros.html">Nosotros</a><br>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
